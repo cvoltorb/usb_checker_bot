@@ -4,7 +4,7 @@ import win32com.client
 computer_id = 'Админском'
 
 def telegram_bot_sendtext(bot_message):
-    bot_token = '1058591709:AAEsUABNZqhV0r8oQqy726mh-Yn15K4LdTE'
+    bot_token = 'PUT_YOUR_TOKEN_HERE'
     bot_chatID = '723227232'
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + '&parse_mode=Markdown&text=' + bot_message
 
